@@ -1,0 +1,27 @@
+﻿watchTitle,storyDescription
+Memory fab investment changes,"Classify the RSS news item as Watched if it is likely to concern an investment decision or change in memory chip manufacturing.
+
+Evaluate these three conditions:
+
+1. COMPANY: The item concerns SK Hynix, Solidigm, Samsung Electronics, Micron, Kioxia, SanDisk, CXMT (ChangXin Memory Technologies), Nanya Technology, YMTC / Yangtze Memory Technologies, or Winbond Electronics, including their subsidiaries or joint ventures.
+
+2. BUSINESS: The item concerns DRAM, NAND flash, or HBM memory manufacturing, including relevant fabs, production lines, equipment, or manufacturing capacity.
+
+3. INVESTMENT: The item reports or strongly indicates a decision, announcement, or development involving investment in memory manufacturing, including:
+   - New, expanded, upgraded, delayed, suspended, or cancelled fabs or production lines.
+   - Increases, decreases, or revisions to capital expenditure (CapEx).
+   - Manufacturing capacity expansion or contraction involving investment.
+   - Subsidies, regulations, export restrictions, or market conditions affecting specific manufacturing investments.
+
+RSS summaries may omit important details. Accept strong contextual evidence, even when the summary does not explicitly mention all three conditions. Do not assume an investment decision solely from changes in prices, demand, revenue, profitability, or production volumes.
+
+Do NOT match items concerning only:
+- Memory prices, sales, financial results, or stock movements.
+- Routine production or utilization adjustments.
+- Product launches or technical breakthroughs without manufacturing investment implications.
+- Analyst speculation about possible future investments without a concrete supporting development.
+- Investments unrelated to memory chip manufacturing.
+
+If the item plausibly reports a concrete memory manufacturing investment development but lacks details, classify as Watched.
+
+Otherwise, classify as fallback."
