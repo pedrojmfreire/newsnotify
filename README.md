@@ -27,7 +27,10 @@ The watchlist is configurable, so the workflow can monitor virtually any topic d
 - [Qwen 3.5 4B](https://huggingface.co/inferencerlabs/Qwen3.5-4B-LM-MLX-Q4) — Small language model used for news classification and event deduplication.
 - [ntfy](https://ntfy.sh/) — Push notifications.
 
-The workflow runs on a **MacBook Pro M1 with 16 GB of unified memory**, using a 4-bit quantized Qwen 3.5 4B model served through `mlx_lm.server`.
+The workflow runs on a **MacBook Pro M1 with 16 GB of unified memory**, using a
+4-bit quantized Qwen 3.5 4B model served through `mlx_lm.server`.
+With "thinking off", each Text Classification operation involving the LLM takes
+between 2 and 5 seconds.
 
 No cloud-based LLM service is required.
 
