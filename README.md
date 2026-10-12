@@ -4,7 +4,7 @@
 
 NewsNotify monitors RSS feeds, uses a local Large Language Model (LLM) to identify news matching configurable topics, groups multiple reports of the same event, and delivers notifications through [ntfy](https://ntfy.sh/).
 
-The project accompanies my article *[When Will the AI Bubble Pop? Find Out with AI and n8n](https://www.pedrofreire.com/blog/when-will-ai-bubble-pop.html)*, which explores using changes in semiconductor manufacturing investments as potential early warning signals of an AI market correction.
+The project accompanies my article *[When Will the AI Bubble Pop?](https://www.pedrofreire.com/blog/when-will-ai-bubble-pop.html)*, which explores using changes in semiconductor manufacturing investments as potential early warning signals of an AI market correction.
 
 
 ## How It Works
